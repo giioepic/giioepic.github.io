@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>GiiO Thrive</title>
-	<meta http-equiv="refresh" content="0; url=https://www.amazon.com/Microfiber-Towel-Towels-Camping-Travel/dp/B07BS7GFJY">
+	<title>Java Script Test Page</title>
+	<script type="text/javascript">
+
+	var urls = new Array();
+	urls[0] = "https://www.amazon.com/Microfiber-Towel-Quick-Dry-Large/dp/B07BS7GFJY";
+	urls[1] = "https://www.amazon.com/Microfiber-Towel-Quick-Dry-Large/dp/B07HJTM5WB";
+	urls[2] = "https://www.amazon.com/Microfiber-Towel-Quick-Dry-Large/dp/B07BS7RVTR";
+	urls[4] = "https://www.amazon.com/Microfiber-Towel-Quick-Dry-Large/dp/B07BS3H79T";
+	urls[5] = "https://www.amazon.com/Microfiber-Towel-Quick-Dry-Large/dp/B07P56V8YH";
+
+
+var random = Math.floor(Math.random()*urls.length);
+
+window.location = urls[random];
+
+</script>
 </head>
 <body>
-Outdoor sporting goods, Quick Dry Towels etc... and more.
+
 </body>
 </html>
